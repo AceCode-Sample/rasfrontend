@@ -1,0 +1,314 @@
+.mainPanel {
+  display: flex;
+  justify-content: center;
+
+  width: 98%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.studentPicturePanel {
+  border-radius: 10px 10px 0px 0px;
+  width: 40%;
+  margin: 2rem;
+}
+
+.studentPicturePanel img {
+  border: solid 3px firebrick;
+  border-radius: 20px;
+
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.studentInfoPanel {
+  border-radius: 10px 10px 0px 0px;
+
+  width: 40%;
+  margin: 2rem;
+}
+
+.studentInfoPanel_top {
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.studentInfoPanel_top_header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: firebrick;
+  border-radius: 10px 10px 0px 0px;
+
+  font-size: 1.5rem;
+  font-weight: bolder;
+
+  gap: 0.5rem;
+  padding: 0.8rem;
+}
+
+.studentInfoPanel_top_header_tag {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.studentInfoPanel_top_header_tag span {
+  font-size: 2rem;
+  transform: rotate(90deg) scaleX(-1);
+}
+
+.studentInfoPanel_top_header input {
+  all: unset;
+  color: firebrick;
+  border-bottom: solid 1px white;
+}
+
+.studentInfoPanel_top_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pName {
+  border: solid 2px black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: 99%;
+  padding: 10px;
+}
+
+.pPosition {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  width: 99%;
+}
+
+.pSection {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  width: 99%;
+}
+
+.studentInfoPanel_top_message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.studentInfoPanel_top_message p {
+  width: 15ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.studentInfoPanel_middle {
+  background-color: white;
+  margin-top: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.studentInfoOthers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.studentInfoOthersA {
+  color: white;
+  background-color: firebrick;
+  width: 3rem;
+}
+
+.studentInfoOthersA p {
+  font-size: larger;
+  font-weight: bolder;
+  transform: rotate(270deg);
+  margin-top: 10rem;
+}
+
+.studentInfoOthersB {
+  margin: auto;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.studentInfoOthersB_list_item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 5px 0;
+}
+
+.studentInfoOthersB_list_item span {
+  text-align: center;
+  color: white;
+  background-color: firebrick;
+  border-radius: 10px;
+  width: 30%;
+  padding: 5px;
+}
+
+.studentInfoOthersB_list_item p {
+  text-align: center;
+  color: white;
+  background-color: firebrick;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.studentInfoOthersC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.studentInfoOthersC label {
+  display: flex;
+  color: white;
+  background-color: firebrick;
+  font-size: small;
+  font-weight: bolder;
+  gap: .5rem;
+  margin-bottom: 10px;
+  padding: 0.5rem;
+}
+
+.studentInfoOthersC img {
+  width: 10rem;
+  height: 10rem;
+  border: solid 2px black;
+}
+
+.studentInfoPanel_bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 0.5rem;
+}
+
+.studentIO_Status {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.studentIO_Status p {
+  text-align: center;
+  color: white;
+
+  background-color: rgb(45, 159, 212);
+  border-radius: 10px 0px 0px 10px;
+  width: 6rem;
+  padding: .6rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.studentIO_Status p[title="green_IN"] {
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: green;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0rem;
+}
+
+.studentIO_Status p[title="green_OUT"] {
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: red;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0rem;
+}
+
+.studentIO_Time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(45, 159, 212);
+  border-radius: 10px;
+  width: 15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.studentPicturePanel img {
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}

@@ -1,0 +1,48 @@
+.headerPanel {
+  display: flex;
+  align-items: center;
+  background-color: #d32222;
+
+  padding: 0.8rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.5rem;
+  margin-left: 5px;
+}
+
+.headerLogo img {
+  height: 30px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+}
+
+.headerLogo h1 {
+  font-size: 24px;
+  margin: 0;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+}
+
+.headerInfo {
+  margin-left: auto;
+  color: white;
+}
+
+
+.headerInfo select {
+  background-color: #d32222;
+  color: white;
+  border: none;
+  padding: 0.4rem;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.headerInfo option {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "RFID": "0013005329",
+        "Fullname": "Mariano, Lester Ace G.",
+        "Position": "ADMIN STAFF",
+        "Section": "IT SUPPORT",
+        "Age": 20,
+        "Sex": "Male",
+        "Address": "Catmon, Santa Maria",
+        "Club": "None",
+        "Adviser": "None",
+        "ID_Tag": "S.Y. 2025 - 2026",
+        "Image": "src/components/assets/Test_Mariano, Lester Ace G.png",
+        "QR": "src/components/assets/TestQR_Mariano, Lester Ace G.png"
+    },
+    {
+        "RFID": "0007200642",
+        "Fullname": "Admin",
+        "Position": "Office ID",
+        "Section": "Testing ID",
+        "Age": "00",
+        "Sex": "None",
+        "Address": "Aquinas de Escolar",
+        "Club": "None",
+        "Adviser": "None",
+        "ID_Tag": "S.Y. 2024 - 2025",
+        "Image": "src/components/assets/Test_AdminPic.png",
+        "QR": "src/components/assets/TestQR_Admin_Card.png"
+    }
+]

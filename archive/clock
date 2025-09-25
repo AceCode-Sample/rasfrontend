@@ -1,0 +1,28 @@
+import { useState, useEffect } from "react";
+
+function TimeDisplay() {
+  const [time, setTime] = useState({ minutes: "", seconds: "" });
+
+  useEffect(() => {
+    const updateClock = () => {
+      const now = new Date();
+      setTime({
+        minutes: String(now.getMinutes()).padStart(2, "0"),
+        seconds: String(now.getSeconds()).padStart(2, "0")
+      });
+    };
+
+    updateClock(); // initial call
+    const interval = setInterval(updateClock, 1000); // update every second
+
+    return () => clearInterval(interval); // cleanup on unmount
+  }, []);
+
+  return (
+    <div>
+      <h2>
+        {time.minutes}:{time.seconds}
+      </h2>
+    </div>
+  );
+}
